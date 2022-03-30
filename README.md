@@ -1,7 +1,8 @@
 # HackRush-22-Optimization
 HackRush'22 Optimization Challenge Submission.
 
-##Submission 1##
+Submission 1:
+
 The code in the first submission "finalsubmission1.py" implements the following algorithm:
 The bombs are added to a list as a quadruple of (Bomb-Radius, X-Coordinate, Y-Coordinate, Bomb-ID).
 
@@ -29,6 +30,8 @@ We a return value for each cluster and if the function returns true, we consider
 After this optimization, we get our final set of jammers.
 
 This implementation gave a very good score for the first test case, but an average result for the second test case.
+
+Submission 2:
 
 The code in the second submission "finalsubmission2.py" implements the following algorithm:
 The bombs are added to a list as a quadruple of (Bomb-Radius, X-Coordinate, Y-Coordinate, Bomb-ID).
