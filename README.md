@@ -3,7 +3,9 @@ HackRush'22 Optimization Challenge Submission.
 
 The code in the first submission "finalsubmission1.py" implements the following algorithm:
 The bombs are added to a list as a quadruple of (Bomb-Radius, X-Coordinate, Y-Coordinate, Bomb-ID).
+
 Then we sort the list in descending order according to the radius of the bombs.
+
 After that we create clusters, here clusters are all those bombs which are in the radius of one another and can reach (explode) if any one of the bomb explodes.
 The implementation considers bidirectional edges instead of unidirectional. In the end we have a graph connecting the bombs.
 Then we calculate the area of explosion of each bomb cluster. The total area is calculated by having a traversal through cluster in the graph.
