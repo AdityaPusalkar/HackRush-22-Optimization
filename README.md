@@ -1,6 +1,7 @@
 # HackRush-22-Optimization
 HackRush'22 Optimization Challenge Submission.
 
+##Submission 1##
 The code in the first submission "finalsubmission1.py" implements the following algorithm:
 The bombs are added to a list as a quadruple of (Bomb-Radius, X-Coordinate, Y-Coordinate, Bomb-ID).
 
